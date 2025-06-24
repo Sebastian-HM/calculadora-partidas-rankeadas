@@ -1,5 +1,5 @@
 // Variáveis para inicio do desafio
-const nomeHeroi = "Bianca, la Capo cannoniere internazionale";
+const nomeHeroi = "Bianca, la Capo cannoniere internazionale!";
 console.log("Bem-vinda ao desafio " + nomeHeroi);
 
 let nivelHeroi = (""); // Definido segundo saldo de vitórias
@@ -7,8 +7,8 @@ let nivelHeroi = (""); // Definido segundo saldo de vitórias
 let saldo = subtracao(250, 14)
 
 function subtracao(vitorias, derrotas){
-    let saldo = vitorias - derrotas
-    return saldo
+    let resultado = vitorias - derrotas
+    return resultado
 }
 
 // Estrutura de decisão para definir o nível do herói
@@ -29,7 +29,7 @@ if (saldo <= 10) {
 }
 
 // Mensagem final
-let mensagem = ("A Heroina " + nomeHeroi + " tem " + saldo + " vitórias e atingiu o nível: " + nivelHeroi);
+let mensagem = ("A Heroína " + nomeHeroi + " tem " + saldo + " vitórias e atingiu o nível: " + nivelHeroi);
 
 // Mensagem no console
 console.log(mensagem);
